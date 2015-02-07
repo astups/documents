@@ -14,9 +14,9 @@ set(CMAKE_CXX_FLAGS "-Wall -std=c++0x")
 #find_package(Boost REQUIRED COMPONENTS system regex)
 #find_package(<package> REQUIRED)
 
-include_directories(${Boost_INCLUDE_DIRS})
-link_directories(${Boost_LIBRARY_DIRS})
-set(LIBS ${LIBS} ${Boost_LIBRARIES})
+#include_directories(${Boost_INCLUDE_DIRS})
+#link_directories(${Boost_LIBRARY_DIRS})
+#set(LIBS ${LIBS} ${Boost_LIBRARIES})
 
 
 #Documentation
@@ -33,6 +33,6 @@ set(LIBS ${LIBS} ${Boost_LIBRARIES})
 #set_target_properties(<lib> PROPERTIES VERSION ${APP_VERSION})
 
 #Add an executable
-#add_executable(<exec> ${hatponboard_SRC})
+#add_executable(<exec> <source>)
 #target_link_libraries(<exec> ${LIBS})
 #set_target_properties(<exec> PROPERTIES VERSION ${APP_VERSION})
